@@ -7,3 +7,5 @@ class Artist
   end
 
   
+
+end
