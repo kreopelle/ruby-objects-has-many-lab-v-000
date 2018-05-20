@@ -10,8 +10,8 @@ class Post
     if @author != nil
       self.author.name
     else
-      nil
-    end  
+      @author
+    end
   end
 
 end
