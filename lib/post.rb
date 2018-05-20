@@ -3,11 +3,15 @@ class Post
 
   def initialize(title, author = nil)
     @title = title
-    @author = author 
+    @author = author
   end
 
   def author_name
-    self.author.name
+    if @author != nil
+      self.author.name
+    else
+      nil
+    end  
   end
 
 end
