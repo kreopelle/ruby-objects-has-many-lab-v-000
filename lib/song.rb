@@ -6,8 +6,8 @@ class Song
   end
 
   def artist_name
-    if :artist
-    self.artist.name
+    self.artist.name if :artist != nil
+
   end
 
 end
